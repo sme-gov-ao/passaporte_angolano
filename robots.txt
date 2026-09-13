@@ -1,1 +1,30 @@
+User-agent: *
+Allow: /
 
+# Sitemap
+Sitemap: https://sme-gov-ao.github.io/passaporte_angolano/sitemap.xml
+
+# SME - Serviço de Migração e Estrangeiros
+# Site Oficial: https://sme-gov-ao.github.io/passaporte_angolano/
+# Campanha Nacional De Emissão De Passaporte Electrónico
+# Lei n.º 14/24 - 21 Províncias
+
+# Contactos Oficiais SME
+# Sede: Rua Amílcar Cabral, Maianga, Luanda, Angola
+# Call Center | WhatsApp: 938 510 719
+# Email: sme.gov.contacto@gmail.com
+# Taxa Oficial: 30.500 Kz
+
+# Províncias: Bengo, Benguela, Bié, Cabinda, Cuando, Cubango, Cuanza Norte, Cuanza Sul, Cunene, Huambo, Huíla, Icolo e Bengo, Luanda, Lunda Norte, Lunda Sul, Malanje, Moxico, Moxico Leste, Namibe, Uíge, Zaire
+
+# Serviços: Agendamento Passaporte, Levantamento Passaporte, Passaporte Ordinário 32 páginas, Passaporte Menor, Requisitos, Taxas, Biometria, Recibos Oficiais SME-2026 e LEV-2026
+
+# Disallow private areas
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /*?*token=*
+Disallow: /*?*comprovativo=*
+
+# Allow important assets
+Allow: /logo-sme.jpg
+Allow: /logo-sme.png
